@@ -37,7 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  until move(board, index) == board.length
+  until board.count "X" == 9
     turn(board)
-  end
 end
