@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  until turn(board) == false
+  while board > nil
     turn(board)
   end
 end
