@@ -38,6 +38,6 @@ end
 # Define your play method below
 def play(board)
   while board < valid_move?(board, index)
-  turn(board)
-end
+    turn(board)
+  end
 end
