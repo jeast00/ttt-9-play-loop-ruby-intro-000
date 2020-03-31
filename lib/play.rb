@@ -37,6 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  until board == display_board(board)
+  while board < valid_move?(board, index)
   turn(board)
 end
