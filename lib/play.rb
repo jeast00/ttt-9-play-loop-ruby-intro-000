@@ -39,4 +39,5 @@ end
 def play(board)
   until board.count "X" == 9
     turn(board)
+  end
 end
