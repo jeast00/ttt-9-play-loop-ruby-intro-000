@@ -37,6 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  until move(board, index, current_player = "X") == false
+  until move(board, index, current_player = "X") != true
     turn(board)
 end
