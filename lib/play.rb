@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
+  input = gets.strip
   index = input_to_index(input)
   while move(board, index, current_player = "X") < 9
     turn(board)
