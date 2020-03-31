@@ -38,5 +38,6 @@ end
 # Define your play method below
 def play(board)
   until play(board) == board
-  turn(board)
+    turn(board)
+  end
 end
