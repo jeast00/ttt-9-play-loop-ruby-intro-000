@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  while play(board) < 9
+  until == true
     turn(board)
   end
 end
