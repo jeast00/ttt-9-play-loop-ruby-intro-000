@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  while turn(board) < board. length
+  until turn(board.length)
     turn(board)
   end
 end
