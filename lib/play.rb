@@ -40,3 +40,4 @@ def play(board)
   while board < valid_move?(board, index)
   turn(board)
 end
+end
