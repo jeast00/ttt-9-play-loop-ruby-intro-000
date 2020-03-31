@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  until board.length
+  until move(board, index) == board.length
     turn(board)
   end
 end
